@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+body * {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Appetite_New";
+    src: url('../fonts/Appetite_New.otf');
+}
+@font-face {
+    font-family: "MUSEOSANSCYRL";
+    src: url('../fonts/MUSEOSANSCYRL.OTF');
+ }
+ @font-face {
+    font-family: "MUSEOSANSCYRL_0";
+    src: url('../fonts/MUSEOSANSCYRL_0.OTF');
+ }
+ @font-face {
+    font-family: "MUSEOSANSCYRL_1";
+    src: url('../fonts/MUSEOSANSCYRL_1.OTF');
+ }
+ @font-face {
+    font-family: "MUSEOSANSCYRL_2";
+    src: url('../fonts/MUSEOSANSCYRL_2.OTF');
+ }
+ @font-face {
+    font-family: "MUSEOSANSCYRL_3";
+    src: url('../fonts/MUSEOSANSCYRL_3.OTF');
+ }
+.back {
+    z-index: -1;
+    position: absolute;
+    
+}
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.header-div {
+    
+    display: flex;
+    padding-top: 50px;
+}
+.logo {
+    
+    padding-left: 180px;
+    display: flex;
+}
+.logo-p {
+    font-family: "MUSEOSANSCYRL_1";
+    font-size: 14px;
+    margin-left: 47px;
+    margin-top: 34px;
+}
+.map {
+    display: flex;
+    margin-left: 138px;
+    margin-top: 20px;
+}
+.map-a, a:hover {
+    font-family: "MUSEOSANSCYRL_1";
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    color: #ff6078;
+    
+}
+.icons {
+  display: flex;
+  margin-left: 60px;
+}
+.icons-button {
+    width: 234px;
+    height: 70px;
+    background-color: white;
+    border-radius: 30px;
+    border-style: none;
+    margin-left: 85px;
+    margin-top: 25px;
+    box-shadow: 0 6px 4px 0.5px rgba(192, 192, 192, 0.288);
+    cursor: pointer;
+}
+.circle-tel {
+    font-family: "MUSEOSANSCYRL_1"; 
+}
+.button-div {
+    display: flex;
+    margin-left: 30px;
+    
+}
+.button-div-p {
+    margin-left: 15px;
+}
+.header-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
+.header-navigation__item {
+    font-family: "MUSEOSANSCYRL_1";
+    text-decoration: none;
+    color: black;
+    padding-top: 25px;
+}
+.header-navigation__item-main {
+    padding-top: 25px;
+    font-family: "MUSEOSANSCYRL";
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav {
+    width: 1567px;
+    height: 70px;
+    background-color: white;
+    margin-left: 180px;
+    border-radius: 13px;
+    box-shadow: 0 6px 4px 5px rgba(192, 192, 192, 0.288);
+}
+.header-heart {
+   margin-left: 1775px; 
+   margin-top: -180px;
+}
+.wrapper-heart {
+    margin-left: 150px;
+    margin-top: -20px;
+}
+.wrapper-div {
+    margin-left: 350px;
+    margin-top: -330px;
+}
+.wrapper-div-p {
+    font-family: "MUSEOSANSCYRL_1";
+    font-size: 48px;
+}
+.wrapper-div-span {
+    font-family: "MUSEOSANSCYRL_3";
+    font-weight: bolder;
+}
+li {
+    color: #ef9499;
+    padding-bottom: 25px;
+}
+.li-span {
+    color: black;
+    font-size: 18px;
+    font-family: "MUSEOSANSCYRL_1";
+}
+.wpapper-div-button {
+    width: 380px;
+    height: 80px;
+    background-color:#ef9499; 
+    border-radius: 35px;
+    box-shadow:  1px 7px 2px #d7747a;
+    border-style: none;
+}
+.button-p {
+    font-family: "MUSEOSANSCYRL_0";
+    font-size: 16px;
+    color: white;
+    margin-right: 150px;
+}
+.button-div-div {
+    margin-left: 227px;
+    margin-top: -80px;
+}
+.card {
+    margin-left: 900px;
+    margin-top: -284px;
+}
+.card-div {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    background-color: #ef9499;
+    margin-left: 160px;
+    margin-top: -55px;
+    z-index: +1;
+    position: relative;
+}
+.girl {
+    margin-left: 1050px;
+    margin-top: -530px;
+}
+.waves {
+    margin-top: -100px;
+}
+.down {
+    margin-left: 895px;
+    margin-top: -200px;
+}

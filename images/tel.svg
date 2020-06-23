@@ -1,0 +1,19 @@
+<svg id="Иконка" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74" height="74" viewBox="0 0 74 74">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="0" y="0" width="74" height="74" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="3" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="4.472"/>
+      <feFlood result="flood" flood-color="#444" flood-opacity="0.11"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <circle id="Круг" class="cls-1" cx="36.5" cy="33.5" r="17.5"/>
+  <image id="Иконка_копия" data-name="Иконка копия" x="29" y="27" width="15" height="15" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAACWElEQVQokW2STUjTcRjHPw7G0jHUiILKLhFpYRBC4cFLk6A17GAqiDRhpEmCWEgFFUmXQMiMtJwMFbqUGlJqSluHsKCLF7GiQ0FFXoJ8y5f9nl9P/OcUs76353n4PG9801QVRyYe3w4suv3+BVIy8XgWMAV8ALqAR26/X9fqriQYi11EdQLVKROLHV0ruv3+GVT3oHoT1TOojptYbOc6nBgdC6vYahV7WMWWq9i+xOhYskFidMyrYgtV7Gt3cXFAxfao2FeJ0bFkg7TlZ8PTQIEnGPjuJFaGRhywDzgE+IAIkAfUe4KBoZWhkbNANVDkUpEta6AjFZlUkWUVyfYEA189wcAJFQmqSOvy4NMSTzDQpSKzKlKetvi4/z1wMr2s9NNS34AXeAm8SC8rvcoGLfUN5ANDwD6gELjuUiP9aiSUnGpklxrJUSM32KT0stJJNfJOjRxRI+NqJNelxnSoMTW/eh9mZ1RWfFRj4mpM82Z4tbmpUWMmMiorrBpzwOUNVU2r2Acq9s7qzfa8ij21EO2t2wguRHtzVey8N1S16MTeUNVs0iTznVE38Abo8NWGu+c7o7uB4dT9l4AW4LjDAGW+2vDbdZP4asNGxZ5Wsdfm2iMlvtrwNxVbpGK3qlhns3wVW5Dyw+BceyTpg3V7Opptu38w9dHmzIa6nlRuL/Als6HOpOJjQBTY/xecLN6+lwM8Sfm5MfNC/Y9NdeckZ+28f2BHMy1tzg+cW52ndTuTspoaPs+0tDmNnwN3s5oaIv+F1/TzVusO4BxQAWwDfgNXsi83dgP8AZwbUTnPhJKtAAAAAElFTkSuQmCC"/>
+</svg>
