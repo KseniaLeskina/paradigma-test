@@ -57,7 +57,7 @@ body * {
 }
 .map {
     display: flex;
-    margin-left: 138px;
+    margin-left: 150px;
     margin-top: 20px;
 }
 .map-a, a:hover {
@@ -69,7 +69,7 @@ body * {
 }
 .icons {
   display: flex;
-  margin-left: 60px;
+  margin-left: 80px;
 }
 .icons-button {
     width: 234px;
@@ -77,10 +77,14 @@ body * {
     background-color: white;
     border-radius: 30px;
     border-style: none;
-    margin-left: 85px;
+    margin-left: 70px;
     margin-top: 25px;
     box-shadow: 0 6px 4px 0.5px rgba(192, 192, 192, 0.288);
     cursor: pointer;
+}
+.contacts {
+    width: 190px;
+    
 }
 .circle-tel {
     font-family: "MUSEOSANSCYRL_1"; 
